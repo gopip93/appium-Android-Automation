@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-09T00:06:15 PDT" name="Failed suite [Default suite]" finished-at="2025-05-09T00:07:54 PDT" duration-ms="99039">
+    <groups>
+    </groups>
+    <test started-at="2025-05-09T00:06:15 PDT" name="Default test(failed)" finished-at="2025-05-09T00:07:54 PDT" duration-ms="99039">
+      <class name="GopiAssessment.test.CountryList">
+        <test-method is-config="true" signature="appiumSetup()[pri:0, instance:GopiAssessment.test.CountryList@52e6fdee]" started-at="2025-05-09T00:06:15 PDT" name="appiumSetup" finished-at="2025-05-09T00:07:21 PDT" duration-ms="66212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumSetup -->
+        <test-method signature="verifyCountryListTitle()[pri:1, instance:GopiAssessment.test.CountryList@52e6fdee]" started-at="2025-05-09T00:07:21 PDT" name="verifyCountryListTitle" finished-at="2025-05-09T00:07:23 PDT" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryListTitle -->
+        <test-method signature="verifySearchIcon()[pri:2, instance:GopiAssessment.test.CountryList@52e6fdee]" started-at="2025-05-09T00:07:23 PDT" name="verifySearchIcon" finished-at="2025-05-09T00:07:24 PDT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchIcon -->
+        <test-method signature="verifyCountryListItems()[pri:3, instance:GopiAssessment.test.CountryList@52e6fdee]" started-at="2025-05-09T00:07:24 PDT" name="verifyCountryListItems" finished-at="2025-05-09T00:07:44 PDT" duration-ms="20008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryListItems -->
+        <test-method signature="clickOnCountry()[pri:4, instance:GopiAssessment.test.CountryList@52e6fdee]" started-at="2025-05-09T00:07:44 PDT" name="clickOnCountry" finished-at="2025-05-09T00:07:49 PDT" duration-ms="5627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCountry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GopiAssessment.test.CountryList@52e6fdee]" started-at="2025-05-09T00:07:49 PDT" name="tearDown" finished-at="2025-05-09T00:07:54 PDT" duration-ms="4412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GopiAssessment.test.CountryList -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>

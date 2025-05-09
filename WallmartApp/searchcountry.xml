@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SelectiveSearchCountrySuite" verbose="1" parallel="false">
+    <test name="OnlyTwoTests">
+        <classes>
+            <class name="GopiAssessment.test.SearchCountry">
+                <methods>
+                    <include name="searchCountries"/>
+                    <include name="clickOnSearchIcon"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
